@@ -1,0 +1,45 @@
+
+State Machine - |proyectoFinal|estados:maquinca|state
+Name state.tiempo state.rept state.nombre state.slot state.programar state.espera 
+state.espera 0 0 0 0 0 0 
+state.programar 0 0 0 0 1 1 
+state.slot 0 0 0 1 0 1 
+state.nombre 0 0 1 0 0 1 
+state.rept 0 1 0 0 0 1 
+state.tiempo 1 0 0 0 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoE|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoT|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoeR|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoeNo|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoeSlot|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
+
+State Machine - |proyectoFinal|flancoP:flancoProgram|state
+Name state.s2 state.s1 state.s0 
+state.s0 0 0 0 
+state.s1 0 1 1 
+state.s2 1 0 1 
